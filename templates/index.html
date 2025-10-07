@@ -1,0 +1,19 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Love, I'm Sorry</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>My Love,</h1>
+  <div class="message">
+    <p>I know I’ve hurt you, and that’s the last thing I ever wanted to do...</p>
+    <!-- Add the rest of your message here -->
+    <p>I miss you, I love you, and I’m really sorry from the bottom of my heart. ❤️</p>
+  </div>
+  <canvas id="heartCanvas"></canvas>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
